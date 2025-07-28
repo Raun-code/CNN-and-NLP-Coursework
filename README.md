@@ -1,92 +1,126 @@
-🧠 AI Coursework – CNN Presentation & NLP Project
-This repository includes two major components completed as part of my AI coursework:
 
-A video presentation on Convolutional Neural Networks (CNNs), explaining the fundamentals, real-world applications, and ethical considerations.
+# 🧠 AI Coursework Repository – CNN Presentation & NLP Project
 
-A full Natural Language Processing (NLP) application and report, covering end-to-end data analysis, model comparison, evaluation, and interpretation using traditional and deep learning methods.
+This repository contains two major components of MSc Data Science coursework:
 
-🎤 Part 1: CNN Presentation (30% of grade)
-Objective:
-Deliver a concise 5-minute presentation that introduces CNNs, explores a real-world research paper using CNNs, addresses ethical implications, and reflects on personal experience with CNNs in practical lab settings.
+* 📽️ A **presentation on Convolutional Neural Networks (CNNs)**
+* 📘 A **Natural Language Processing (NLP) application and report**
 
-📌 Contents:
-Definition & Working of CNNs:
+Both components demonstrate the integration of machine learning theory with practical implementation using real-world datasets and scholarly research.
 
-Explanation of key components like convolution layers, activation functions, max pooling, dropout, and flattening.
+---
 
-Ethical Consideration:
+## 🎤 Part 1: CNN Presentation
 
-A brief discussion of a real-world ethical issue (e.g., bias in facial recognition, surveillance, etc.) involving CNNs.
+### 📌 Overview
 
-Academic Paper Analysis:
+* **Topic**: Convolutional Neural Networks (CNNs)
+* **Format**: 5-minute video presentation + PDF slides
+* **Objective**: Explain CNN fundamentals, explore a research paper using CNNs, discuss an ethical issue, and reflect on personal lab experience
 
-Chosen paper sourced from the university library.
+### 📚 Key Presentation Components
 
-Described the goals, motivation, and architecture used in the paper.
+* **1. What is a CNN?**
 
-Explained why CNNs were the appropriate choice.
+  * Convolutional layers, ReLU activation, max-pooling, flattening
+  * Dropout regularisation and fully connected layers
+* **2. Ethical Issue**
 
-Visualisations:
+  * Discussed real-world risks such as bias in facial recognition
+* **3. Research Paper**
 
-Diagram of CNN architecture.
+  * Sourced from the university library
+  * Described research goals, dataset, CNN design, and results
+* **4. Why CNN?**
 
-Visuals from the paper (e.g., confusion matrix, example image classification outputs).
+  * Justification of CNN for visual/spatial pattern recognition tasks
+* **5. Visualisations**
 
-Reflection:
+  * CNN architecture diagram
+  * Visual outputs from the paper (e.g. confusion matrix, sample predictions)
+* **6. Personal Reflection**
 
-A short commentary on my personal experience implementing CNNs during lab sessions (e.g., MNIST classification).
+  * Brief commentary on hands-on CNN implementation in lab (e.g. MNIST digit recognition)
+
+---
+
+## 📘 Part 2: NLP Application & Report
+
+### 📌 Overview
+
+* **Goal**: Build and evaluate an NLP system using both traditional and deep learning models
+* **Deliverables**:
+
+  * Jupyter Notebook with full code, visualisations, and results
+  * 3,000-word report (no code) with analysis, discussion, and evaluations
+
+### ⚙️ Methodology
+
+#### ✅ Problem Statement & Context
+
+* Importance of NLP in domain (e.g., healthcare, social media, finance)
+* Background literature on similar applications
+
+#### 🎯 SMART Objectives
+
+* Defined clear, measurable goals grounded in real-world needs
+
+#### 📂 Dataset
+
+* Publicly sourced or provided dataset
+* Dataset description: size, class distribution, text characteristics
+* Data issues and cleaning (e.g., stopwords, tokenisation, class imbalance)
+
+#### 📊 Exploratory Data Analysis (EDA)
+
+* Word frequency plots, word clouds
+* Length distribution, class balance, and n-gram analysis
+
+#### 🧠 Models Implemented
+
+* **Traditional Machine Learning**:
+
+  * Naive Bayes
+  * Clustering (e.g., K-Means)
+* **Deep Learning**:
+
+  * LSTM
+  * Transformer (e.g., using Hugging Face BERT or similar)
+
+#### 🔧 Model Tuning
+
+* Hyperparameter optimisation
+* Architecture modifications
+* Early stopping, dropout, embedding layers (for deep models)
+
+#### 📈 Evaluation Metrics
+
+* F1 Score, Accuracy, Precision, Recall
+* ROC-AUC / PR-AUC
+* Confusion Matrix, classification reports
+
+---
+
+## 📊 Visual Outputs
+
+* Model performance comparison plots
+* Training/validation loss & accuracy curves
+* Confusion matrices
+* Word clouds and EDA charts
+* Attention visualisations (if using transformers)
+
+---
+
+## 🛠 Technologies Used
+
+* Python 3.x
+* Jupyter Notebook
+* Scikit-learn, TensorFlow, Keras
+* NLTK, spaCy, Hugging Face Transformers
+* Pandas, NumPy
+* Matplotlib, Seaborn
+
+---
 
 
-📗 Part 2: NLP Application and Report (70% of grade)
-Objective:
-Build and evaluate an NLP application using publicly available data. The task includes comparison of traditional ML models and deep learning models, complete with preprocessing, evaluation, and detailed reporting.
-
-📌 Key Components:
-Application Goal:
-
-Chose an NLP use case (e.g., text classification, sentiment analysis, topic modelling, etc.) with societal or industry relevance.
-
-Provided background on similar systems from research or industry use (via literature review).
-
-SMART Objectives:
-
-Defined specific, measurable, achievable, relevant, and time-bound goals based on research and dataset context.
-
-Dataset:
-
-Description of dataset structure, size, format, balance, and limitations.
-
-Used preprocessing steps such as tokenisation, stopword removal, padding, and vectorisation.
-
-Model Implementation:
-
-Traditional ML: Naive Bayes, K-Means or similar clustering algorithm.
-
-Deep Learning: LSTM, Transformer or standard RNN.
-
-Model Tuning:
-
-Applied techniques like grid search, learning rate tuning, number of hidden layers, dropout, batch size.
-
-Evaluation:
-
-Used metrics such as F1 Score, Accuracy, ROC-AUC, PR-AUC for performance assessment.
-
-Compared model results visually and statistically to determine best performer.
-
-
-🧪 Technologies Used
-Python 3.x
-
-Jupyter Notebook
-
-TensorFlow / Keras
-
-Scikit-learn
-
-Pandas, NumPy, NLTK, spaCy
-
-Matplotlib / Seaborn
-
-Hugging Face Transformers (optional for BERT/Transformer model)
 
